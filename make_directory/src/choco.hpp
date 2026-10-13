@@ -184,49 +184,5 @@ namespace Filesystem{
 
     }
 
-    void ftree(std::filesystem::path path){
-
-	//temporary solution
-	
-	std::basic_string<char> str_tree;
-
-	std::filesystem::path current_path = getPath();
-	current_path /= path;
-	auto pathIterBegin = current_path.begin();
-	auto pathIterEnd = current_path.end();
-
-	if (path.has_parent_path()){
-
-	    std::filesystem::path pPath = path.parent_path();
-	    auto pathIterBegin = path.begin();
-	    auto pathIterEnd = path.end();
-
-	}
-
-	int max = 2;
-
-	auto i = pathIterBegin;
-
-	i++;
-	i++;
-	i++;
-
-	for (; i != pathIterEnd; i++){
-	    std::cout << str_tree << *i << std::endl;
-	    str_tree.clear();
-
-	    for (int j = 1; j < max; j++){
-
-		str_tree.push_back(' ');
-
-	    }
-
-	    str_tree+= "\u2514\u2574";
-
-	    max+=3;
-
-	}
-
-    }
 
 }

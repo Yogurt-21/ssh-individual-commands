@@ -1,0 +1,3 @@
+/home/jaz/Desktop/coding/ssh-individual-commands/make_directory/build/CMakeFiles/a.out.dir
+/home/jaz/Desktop/coding/ssh-individual-commands/make_directory/build/CMakeFiles/edit_cache.dir
+/home/jaz/Desktop/coding/ssh-individual-commands/make_directory/build/CMakeFiles/rebuild_cache.dir
